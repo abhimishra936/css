@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="newcss.css" type="text/css">
+        
+        <script>
+            function add(){ 
+            var a,b,c;
+            a=Number(document.getElementById("first").value);
+            b=Number(document.getElementById("second").value);
+            c= a + b;
+            document.getElementById("answer").value= c;
+            }
+</script>
+    </head>
+    <body>
+        <div class="button">
+            <input class="btntop" value="Facebook" type="submit">
+            <input class="btntop" value="Instagram" type="submit">
+            <img class="one" src="img.jpg">
+        </div>
+        <div class="photo">
+           
+        </div>
+        <div class="main">
+            <div class="left">
+                
+            </div>
+            <div class="right">
+                <div class="small">
+                    <h1>Addition of two Number</h1>
+                    <h2>Enter the First number : <input class="input" id="first"></h2>
+                    <h2>Enter the Second number: <input class="input" id="second"></h2>
+                    <button class="btn" onclick="add()">Add</button>
+                    <input class="input" id="answer">
+                </div>
+                <div class="small"><img src="two.jpg"></div>
+                <div class="small"><img src="three.jpg"></div>
+                <div class="small"><img src="four.png"></div>
+            </div>
+        </div>
+        <footer>
+            <h1>Abhsihek Mishra</h1>
+        </footer>
+    </body>
+</html>
